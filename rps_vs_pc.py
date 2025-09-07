@@ -7,7 +7,7 @@ p1 = input("Player 1 select Rock, Paper or Scissors: ").lower()
 p2 = valid_choices[randint(0,2)]
 
 if p1 not in valid_choices:
-    print("Invalid input! Please choose Rock, Paper, or Scissors.")
+    print("Invalid input! Please choose Rock, Paper, or Scissors!")
 elif p1 == p2:
     print(f"Player 2 chose {p2}")
     print("Draw!")
